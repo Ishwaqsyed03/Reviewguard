@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 import { Section } from "../../ui/section";
 
-const API = "http://localhost:8000";
+const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 const PRESETS = {
   fake: {

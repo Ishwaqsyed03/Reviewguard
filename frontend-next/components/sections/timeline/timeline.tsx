@@ -18,7 +18,7 @@ import { cn } from "@/lib/utils";
 
 import { Section } from "../../ui/section";
 
-const API = "http://localhost:8000";
+const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 const PRODUCTS = {
   "Sony WH-1000XM5 Headphones": "biz_001",

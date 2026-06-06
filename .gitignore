@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+env/
+
+# Data / DB
+data/reviews.db
+
+# Models (too large for git if needed, but detector.pkl is only 142KB so keep it)
+# models/trained/
+
+# Node
+frontend-next/node_modules/
+frontend-next/.next/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/

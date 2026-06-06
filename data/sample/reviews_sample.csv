@@ -1,0 +1,501 @@
+reviewer_id,product_id,review_text,rating,verified_purchase,review_count,days_since_joined,helpful_votes,is_fake
+user_9536,prod_177,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,162,1852,8,0
+user_7713,prod_855,Really happy with this purchase. Exceeded expectations.,5.0,False,25,1766,3,0
+user_6908,prod_950,Not bad for the price. Some features missing but overall okay.,5.0,True,25,1850,46,0
+user_8550,prod_820,"Great product, works exactly as described. Would buy again.",5.0,True,32,1020,22,0
+user_5393,prod_691,Not bad for the price. Some features missing but overall okay.,4.0,True,184,1555,10,0
+user_4237,prod_485,Not bad for the price. Some features missing but overall okay.,3.0,True,76,100,10,0
+user_8668,prod_315,Average experience. Nothing special but does the job.,4.0,True,95,920,0,0
+user_5018,prod_136,Not bad for the price. Some features missing but overall okay.,4.0,True,27,276,34,0
+user_8621,prod_116,Really happy with this purchase. Exceeded expectations.,4.0,True,61,1663,12,0
+bot_8001,prod_703,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,4,28,0,1
+user_9706,prod_469,Not bad for the price. Some features missing but overall okay.,4.0,False,77,180,23,0
+user_1927,prod_428,Not bad for the price. Some features missing but overall okay.,3.0,True,73,427,27,0
+bot_6571,prod_857,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,2,28,0,1
+user_8533,prod_858,Not bad for the price. Some features missing but overall okay.,5.0,False,51,1959,16,0
+user_7507,prod_970,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,46,1567,28,0
+user_4902,prod_720,Really happy with this purchase. Exceeded expectations.,4.0,True,127,1346,5,0
+bot_3011,prod_275,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,3,2,0,1
+user_3349,prod_744,"Great product, works exactly as described. Would buy again.",5.0,True,148,566,3,0
+user_6443,prod_204,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,True,92,1997,14,0
+bot_3701,prod_590,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,2,16,0,1
+bot_2066,prod_900,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,1,10,0,1
+bot_2153,prod_461,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,3,8,0,1
+user_8556,prod_988,"Great product, works exactly as described. Would buy again.",3.0,False,164,1490,18,0
+user_9363,prod_648,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,161,1780,1,0
+user_2402,prod_355,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,93,257,27,0
+bot_2701,prod_893,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,3,23,0,1
+bot_1534,prod_849,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,1,20,0,1
+user_4546,prod_307,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,5,601,5,0
+user_6151,prod_527,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,106,1463,38,0
+user_1390,prod_183,Not bad for the price. Some features missing but overall okay.,4.0,True,111,1483,29,0
+bot_4289,prod_217,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,1,13,0,1
+user_7428,prod_517,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,85,461,31,0
+bot_9294,prod_479,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,4,2,0,1
+user_8037,prod_514,Really happy with this purchase. Exceeded expectations.,5.0,True,27,1029,36,0
+user_7456,prod_806,Average experience. Nothing special but does the job.,4.0,True,168,917,25,0
+user_8746,prod_341,Really happy with this purchase. Exceeded expectations.,5.0,True,110,925,40,0
+bot_9687,prod_908,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,1,29,0,1
+user_9398,prod_880,"Great product, works exactly as described. Would buy again.",5.0,True,61,842,5,0
+user_1458,prod_865,Not bad for the price. Some features missing but overall okay.,3.0,True,79,1561,3,0
+user_3708,prod_218,Really happy with this purchase. Exceeded expectations.,4.0,True,134,648,47,0
+user_6742,prod_982,Not bad for the price. Some features missing but overall okay.,4.0,True,182,867,46,0
+user_6872,prod_281,Really happy with this purchase. Exceeded expectations.,5.0,True,108,1539,31,0
+bot_5426,prod_466,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,2,17,0,1
+user_5631,prod_336,"Great product, works exactly as described. Would buy again.",4.0,True,10,1526,20,0
+user_8708,prod_117,Really happy with this purchase. Exceeded expectations.,5.0,True,145,1336,21,0
+user_1190,prod_737,Average experience. Nothing special but does the job.,3.0,True,39,1667,2,0
+user_1803,prod_795,"Great product, works exactly as described. Would buy again.",4.0,True,89,1721,4,0
+user_3041,prod_607,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,90,346,41,0
+bot_2742,prod_936,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,4,18,0,1
+user_4908,prod_695,Average experience. Nothing special but does the job.,3.0,True,103,1574,49,0
+user_3466,prod_508,Average experience. Nothing special but does the job.,4.0,True,57,496,49,0
+user_7863,prod_741,Average experience. Nothing special but does the job.,4.0,False,6,1734,36,0
+user_8055,prod_328,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,116,909,7,0
+bot_4941,prod_733,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,4,15,0,1
+user_4530,prod_545,Really happy with this purchase. Exceeded expectations.,5.0,True,101,707,6,0
+user_2104,prod_160,"Great product, works exactly as described. Would buy again.",5.0,False,34,1501,8,0
+user_9124,prod_113,Really happy with this purchase. Exceeded expectations.,4.0,False,142,1717,20,0
+user_1712,prod_787,Really happy with this purchase. Exceeded expectations.,4.0,True,115,1120,4,0
+user_3402,prod_808,Not bad for the price. Some features missing but overall okay.,4.0,True,38,1137,15,0
+user_4862,prod_631,Really happy with this purchase. Exceeded expectations.,4.0,False,161,805,41,0
+bot_6530,prod_366,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,1,5,0,1
+user_4690,prod_223,Average experience. Nothing special but does the job.,5.0,True,48,1119,21,0
+user_9993,prod_128,Really happy with this purchase. Exceeded expectations.,4.0,True,23,1376,36,0
+bot_7841,prod_172,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,3,1,0,1
+user_3861,prod_984,Not bad for the price. Some features missing but overall okay.,4.0,False,175,1591,42,0
+user_9626,prod_475,Not bad for the price. Some features missing but overall okay.,4.0,True,157,157,4,0
+bot_7343,prod_433,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,3,13,0,1
+user_6531,prod_923,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,True,51,103,7,0
+user_7764,prod_709,Really happy with this purchase. Exceeded expectations.,4.0,False,153,1146,13,0
+user_2696,prod_542,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,23,1038,47,0
+user_5174,prod_275,Average experience. Nothing special but does the job.,4.0,False,10,451,44,0
+user_9779,prod_959,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,True,42,1245,11,0
+user_2869,prod_247,Average experience. Nothing special but does the job.,4.0,False,10,778,5,0
+user_6001,prod_259,"Great product, works exactly as described. Would buy again.",3.0,False,197,1696,29,0
+user_2733,prod_950,Average experience. Nothing special but does the job.,3.0,True,87,820,30,0
+user_1577,prod_388,Not bad for the price. Some features missing but overall okay.,4.0,False,106,817,22,0
+user_3095,prod_905,Really happy with this purchase. Exceeded expectations.,4.0,True,80,551,8,0
+user_8170,prod_516,Not bad for the price. Some features missing but overall okay.,3.0,True,108,1537,30,0
+bot_4146,prod_217,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,2,6,0,1
+bot_3235,prod_377,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,2,4,0,1
+user_4759,prod_851,Not bad for the price. Some features missing but overall okay.,5.0,False,191,1125,10,0
+user_1063,prod_435,Average experience. Nothing special but does the job.,5.0,True,179,230,4,0
+bot_9106,prod_312,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,3,23,0,1
+user_6857,prod_912,Average experience. Nothing special but does the job.,4.0,False,60,1927,31,0
+user_2587,prod_239,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,112,510,25,0
+user_7631,prod_394,"Great product, works exactly as described. Would buy again.",4.0,True,40,1380,11,0
+user_3394,prod_931,"Great product, works exactly as described. Would buy again.",4.0,False,51,102,2,0
+bot_6113,prod_801,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,3,13,0,1
+user_6703,prod_360,Average experience. Nothing special but does the job.,4.0,True,95,1184,18,0
+user_2413,prod_924,Really happy with this purchase. Exceeded expectations.,3.0,True,183,1228,3,0
+user_9687,prod_168,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,False,171,1707,9,0
+bot_3081,prod_520,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,2,12,0,1
+user_8211,prod_979,Average experience. Nothing special but does the job.,4.0,True,108,1002,14,0
+user_2064,prod_978,Not bad for the price. Some features missing but overall okay.,4.0,True,62,938,8,0
+bot_4806,prod_264,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,3,10,0,1
+user_3436,prod_218,Average experience. Nothing special but does the job.,4.0,True,66,917,28,0
+user_7650,prod_220,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,True,68,1043,48,0
+user_3792,prod_930,"Great product, works exactly as described. Would buy again.",3.0,False,184,1209,8,0
+bot_9429,prod_492,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,2,29,0,1
+user_8081,prod_801,"Great product, works exactly as described. Would buy again.",4.0,True,142,575,39,0
+user_1208,prod_289,Not bad for the price. Some features missing but overall okay.,5.0,False,78,1615,35,0
+bot_2458,prod_490,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,4,7,0,1
+user_6032,prod_814,Not bad for the price. Some features missing but overall okay.,4.0,True,11,714,21,0
+user_3655,prod_716,Average experience. Nothing special but does the job.,5.0,True,5,1984,1,0
+user_7719,prod_839,Average experience. Nothing special but does the job.,4.0,True,10,319,3,0
+user_4304,prod_638,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,13,416,14,0
+user_2247,prod_352,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,136,1831,45,0
+user_3854,prod_211,Not bad for the price. Some features missing but overall okay.,5.0,True,120,495,6,0
+user_4926,prod_864,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,True,11,696,32,0
+user_3234,prod_950,Average experience. Nothing special but does the job.,4.0,True,86,1168,26,0
+user_4705,prod_237,Average experience. Nothing special but does the job.,4.0,False,47,1899,29,0
+bot_4278,prod_920,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,2,16,0,1
+user_3316,prod_394,"Great product, works exactly as described. Would buy again.",5.0,True,103,1091,37,0
+user_5156,prod_744,"Great product, works exactly as described. Would buy again.",3.0,False,102,1877,7,0
+bot_8219,prod_232,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,2,8,0,1
+user_5218,prod_854,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,False,184,1373,17,0
+user_1941,prod_800,Average experience. Nothing special but does the job.,5.0,False,173,1726,39,0
+user_3282,prod_657,Average experience. Nothing special but does the job.,4.0,True,112,1064,19,0
+user_9990,prod_121,Average experience. Nothing special but does the job.,4.0,True,131,1257,4,0
+user_5904,prod_568,Average experience. Nothing special but does the job.,5.0,True,60,72,18,0
+user_5279,prod_317,"Great product, works exactly as described. Would buy again.",3.0,True,49,1192,34,0
+user_9732,prod_774,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,5,274,14,0
+user_3012,prod_696,"Great product, works exactly as described. Would buy again.",4.0,True,143,1670,28,0
+user_2881,prod_780,Really happy with this purchase. Exceeded expectations.,4.0,True,36,1431,8,0
+user_5565,prod_209,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,True,5,1850,0,0
+user_1268,prod_761,Average experience. Nothing special but does the job.,4.0,True,8,1413,8,0
+bot_8742,prod_285,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,2,29,0,1
+user_9951,prod_629,Really happy with this purchase. Exceeded expectations.,4.0,True,163,1353,45,0
+user_5038,prod_239,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,False,15,410,0,0
+user_8910,prod_923,Not bad for the price. Some features missing but overall okay.,3.0,True,34,636,26,0
+user_1867,prod_501,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,True,93,1416,10,0
+user_5088,prod_749,Really happy with this purchase. Exceeded expectations.,5.0,True,62,1937,22,0
+bot_4953,prod_837,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,2,7,0,1
+user_8870,prod_771,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,108,1448,12,0
+user_6306,prod_731,"Great product, works exactly as described. Would buy again.",4.0,True,119,1315,30,0
+user_3792,prod_997,Average experience. Nothing special but does the job.,5.0,True,194,1013,25,0
+user_2680,prod_996,Average experience. Nothing special but does the job.,5.0,False,148,1202,3,0
+user_4008,prod_120,Not bad for the price. Some features missing but overall okay.,3.0,True,155,1453,34,0
+user_2030,prod_495,Average experience. Nothing special but does the job.,4.0,True,96,1714,28,0
+user_8666,prod_437,"Great product, works exactly as described. Would buy again.",4.0,True,148,1487,14,0
+user_7738,prod_476,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,False,37,1204,9,0
+user_9860,prod_509,Really happy with this purchase. Exceeded expectations.,4.0,True,159,645,2,0
+bot_6655,prod_678,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,1,26,0,1
+user_1652,prod_359,Not bad for the price. Some features missing but overall okay.,3.0,False,11,428,29,0
+user_4394,prod_426,Really happy with this purchase. Exceeded expectations.,4.0,False,30,684,8,0
+user_8630,prod_433,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,True,26,1527,1,0
+user_6978,prod_467,Really happy with this purchase. Exceeded expectations.,4.0,True,163,662,8,0
+user_5119,prod_246,Average experience. Nothing special but does the job.,5.0,False,199,1715,14,0
+user_9860,prod_651,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,True,190,1189,3,0
+bot_6866,prod_876,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,3,28,0,1
+user_1574,prod_871,"Great product, works exactly as described. Would buy again.",5.0,True,128,355,37,0
+user_7159,prod_355,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,False,13,239,33,0
+user_6934,prod_756,"Great product, works exactly as described. Would buy again.",4.0,False,154,661,5,0
+user_6000,prod_512,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,12,305,12,0
+bot_2525,prod_736,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,4,6,0,1
+user_9366,prod_728,Average experience. Nothing special but does the job.,3.0,False,25,130,5,0
+user_4336,prod_264,Really happy with this purchase. Exceeded expectations.,5.0,False,130,822,41,0
+user_3870,prod_224,Really happy with this purchase. Exceeded expectations.,3.0,False,22,48,46,0
+bot_5866,prod_846,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,1,29,0,1
+user_9346,prod_724,"Great product, works exactly as described. Would buy again.",5.0,True,86,423,43,0
+user_6866,prod_986,"Great product, works exactly as described. Would buy again.",3.0,False,170,1903,21,0
+user_8898,prod_938,Really happy with this purchase. Exceeded expectations.,4.0,False,128,167,46,0
+bot_5246,prod_303,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,2,13,0,1
+user_7296,prod_511,Not bad for the price. Some features missing but overall okay.,4.0,False,193,549,38,0
+bot_5779,prod_567,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,1,15,0,1
+bot_4056,prod_424,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,1,6,0,1
+user_5475,prod_725,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,37,780,11,0
+user_8004,prod_783,Average experience. Nothing special but does the job.,3.0,True,96,1010,2,0
+bot_1410,prod_762,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,2,14,0,1
+user_7636,prod_444,Really happy with this purchase. Exceeded expectations.,3.0,False,39,1119,47,0
+user_6288,prod_813,Average experience. Nothing special but does the job.,3.0,True,185,1979,29,0
+user_4903,prod_531,Average experience. Nothing special but does the job.,4.0,False,34,633,9,0
+bot_7934,prod_994,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,3,26,0,1
+user_7125,prod_906,Really happy with this purchase. Exceeded expectations.,5.0,True,52,504,22,0
+user_3838,prod_497,Not bad for the price. Some features missing but overall okay.,3.0,True,105,1839,36,0
+user_9727,prod_196,"Great product, works exactly as described. Would buy again.",5.0,True,61,1648,36,0
+user_9346,prod_263,Really happy with this purchase. Exceeded expectations.,4.0,True,135,1984,2,0
+user_4353,prod_956,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,True,26,1865,33,0
+user_7599,prod_567,Not bad for the price. Some features missing but overall okay.,4.0,False,52,649,25,0
+user_6928,prod_415,Not bad for the price. Some features missing but overall okay.,4.0,True,67,1941,17,0
+user_9648,prod_569,"Great product, works exactly as described. Would buy again.",5.0,True,92,305,28,0
+user_1159,prod_371,"Great product, works exactly as described. Would buy again.",4.0,False,128,1765,17,0
+bot_7064,prod_879,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,1,21,0,1
+user_2185,prod_423,"Great product, works exactly as described. Would buy again.",3.0,True,190,206,24,0
+bot_5791,prod_293,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,3,22,0,1
+user_3845,prod_321,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,True,112,418,21,0
+user_1929,prod_817,"Great product, works exactly as described. Would buy again.",5.0,True,119,1167,17,0
+user_9396,prod_763,Average experience. Nothing special but does the job.,5.0,True,96,1279,39,0
+user_9079,prod_727,"Great product, works exactly as described. Would buy again.",4.0,True,195,625,24,0
+user_3847,prod_272,Really happy with this purchase. Exceeded expectations.,4.0,True,123,1857,34,0
+bot_4886,prod_409,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,4,17,0,1
+user_6210,prod_980,"Great product, works exactly as described. Would buy again.",3.0,True,12,1873,34,0
+bot_8134,prod_500,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,4,2,0,1
+user_3997,prod_320,Average experience. Nothing special but does the job.,4.0,True,12,1881,3,0
+user_9424,prod_424,Not bad for the price. Some features missing but overall okay.,5.0,True,98,305,18,0
+user_5525,prod_189,Really happy with this purchase. Exceeded expectations.,3.0,True,89,1494,22,0
+user_8535,prod_445,"Great product, works exactly as described. Would buy again.",4.0,True,27,140,3,0
+user_7931,prod_395,Average experience. Nothing special but does the job.,4.0,True,192,1701,24,0
+user_7776,prod_448,Average experience. Nothing special but does the job.,5.0,True,70,51,33,0
+user_9339,prod_821,Average experience. Nothing special but does the job.,5.0,False,81,1552,16,0
+bot_2341,prod_162,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,2,14,0,1
+user_8500,prod_195,Really happy with this purchase. Exceeded expectations.,3.0,True,185,1388,4,0
+user_8904,prod_680,"Great product, works exactly as described. Would buy again.",4.0,True,105,204,37,0
+user_6283,prod_208,"Great product, works exactly as described. Would buy again.",5.0,True,71,1178,24,0
+user_4045,prod_937,Really happy with this purchase. Exceeded expectations.,5.0,True,99,1076,38,0
+user_7680,prod_293,Not bad for the price. Some features missing but overall okay.,4.0,True,132,79,14,0
+user_6931,prod_751,Really happy with this purchase. Exceeded expectations.,5.0,False,63,1485,41,0
+user_5278,prod_634,Not bad for the price. Some features missing but overall okay.,4.0,True,42,1654,15,0
+bot_1531,prod_936,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,2,15,0,1
+user_5138,prod_656,Really happy with this purchase. Exceeded expectations.,4.0,True,43,1709,48,0
+user_9380,prod_897,"Great product, works exactly as described. Would buy again.",4.0,True,127,658,17,0
+user_2287,prod_868,Not bad for the price. Some features missing but overall okay.,5.0,False,43,58,45,0
+user_1188,prod_769,"Great product, works exactly as described. Would buy again.",5.0,False,50,1532,5,0
+user_2780,prod_246,Not bad for the price. Some features missing but overall okay.,5.0,False,172,1509,12,0
+user_3192,prod_278,"Great product, works exactly as described. Would buy again.",3.0,True,151,1180,44,0
+user_1700,prod_221,Not bad for the price. Some features missing but overall okay.,4.0,False,40,661,17,0
+user_5813,prod_162,Not bad for the price. Some features missing but overall okay.,5.0,False,115,1424,19,0
+user_3865,prod_592,"Great product, works exactly as described. Would buy again.",5.0,True,122,613,10,0
+user_1892,prod_472,Really happy with this purchase. Exceeded expectations.,3.0,True,87,1057,8,0
+user_2640,prod_345,Not bad for the price. Some features missing but overall okay.,4.0,True,92,1201,6,0
+user_9378,prod_634,Average experience. Nothing special but does the job.,5.0,False,118,767,5,0
+user_5063,prod_576,Not bad for the price. Some features missing but overall okay.,4.0,True,165,886,18,0
+user_2693,prod_396,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,137,233,8,0
+user_5046,prod_477,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,False,192,1511,25,0
+user_5266,prod_232,Not bad for the price. Some features missing but overall okay.,3.0,True,116,721,28,0
+user_5231,prod_215,Not bad for the price. Some features missing but overall okay.,4.0,True,47,410,49,0
+user_3193,prod_290,Not bad for the price. Some features missing but overall okay.,4.0,True,176,1474,32,0
+bot_1890,prod_537,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,3,14,0,1
+user_4577,prod_511,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,True,89,330,39,0
+user_2186,prod_116,Not bad for the price. Some features missing but overall okay.,4.0,False,28,614,25,0
+user_2066,prod_343,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,False,129,271,6,0
+user_4751,prod_643,Not bad for the price. Some features missing but overall okay.,3.0,True,76,1024,18,0
+bot_8398,prod_196,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,3,15,0,1
+user_7304,prod_418,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,False,91,1789,33,0
+user_4983,prod_139,"Great product, works exactly as described. Would buy again.",3.0,True,17,668,23,0
+user_1934,prod_843,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,35,789,37,0
+user_4034,prod_258,Really happy with this purchase. Exceeded expectations.,3.0,True,13,1651,3,0
+user_3196,prod_915,Really happy with this purchase. Exceeded expectations.,5.0,True,128,488,9,0
+user_5574,prod_428,"Great product, works exactly as described. Would buy again.",4.0,False,19,1991,22,0
+user_1368,prod_556,Average experience. Nothing special but does the job.,5.0,False,100,1753,49,0
+user_1726,prod_623,Really happy with this purchase. Exceeded expectations.,4.0,False,174,1771,31,0
+user_1916,prod_659,Not bad for the price. Some features missing but overall okay.,3.0,False,91,38,47,0
+bot_3714,prod_412,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,2,20,0,1
+user_8160,prod_270,"Great product, works exactly as described. Would buy again.",4.0,True,138,967,16,0
+user_4912,prod_796,"Great product, works exactly as described. Would buy again.",3.0,True,46,1086,12,0
+user_9380,prod_859,Really happy with this purchase. Exceeded expectations.,3.0,False,27,1450,4,0
+user_3244,prod_677,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,86,586,2,0
+user_5022,prod_411,Really happy with this purchase. Exceeded expectations.,4.0,True,62,74,7,0
+user_6138,prod_250,Not bad for the price. Some features missing but overall okay.,4.0,True,12,692,22,0
+user_9255,prod_665,Average experience. Nothing special but does the job.,4.0,True,39,46,16,0
+bot_1980,prod_832,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,1,13,0,1
+user_4624,prod_407,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,95,896,12,0
+bot_2572,prod_382,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,1,8,0,1
+user_6043,prod_392,Really happy with this purchase. Exceeded expectations.,5.0,False,64,1073,49,0
+user_2132,prod_843,Average experience. Nothing special but does the job.,3.0,True,135,288,32,0
+bot_1780,prod_131,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,2,5,0,1
+user_8815,prod_856,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,True,20,582,28,0
+user_2788,prod_464,Average experience. Nothing special but does the job.,3.0,False,85,1949,12,0
+user_4006,prod_538,Average experience. Nothing special but does the job.,3.0,False,66,161,37,0
+bot_9129,prod_484,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,2,19,0,1
+user_6689,prod_546,Average experience. Nothing special but does the job.,4.0,True,184,1305,15,0
+user_9349,prod_208,Really happy with this purchase. Exceeded expectations.,5.0,False,141,1645,41,0
+user_3438,prod_505,Really happy with this purchase. Exceeded expectations.,5.0,True,79,939,14,0
+user_6725,prod_185,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,118,196,26,0
+user_7629,prod_601,Really happy with this purchase. Exceeded expectations.,5.0,True,184,1704,25,0
+user_7825,prod_745,Not bad for the price. Some features missing but overall okay.,5.0,True,86,1850,25,0
+bot_7476,prod_673,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,3,2,0,1
+user_9422,prod_750,Average experience. Nothing special but does the job.,3.0,False,191,363,40,0
+bot_6636,prod_214,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,4,24,0,1
+user_3589,prod_863,Average experience. Nothing special but does the job.,3.0,True,135,1607,48,0
+user_7654,prod_453,Really happy with this purchase. Exceeded expectations.,5.0,True,14,1818,11,0
+user_6264,prod_804,Average experience. Nothing special but does the job.,4.0,True,172,968,47,0
+user_6874,prod_757,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,190,1152,22,0
+user_7168,prod_589,"Great product, works exactly as described. Would buy again.",3.0,True,83,1410,43,0
+user_7596,prod_695,Really happy with this purchase. Exceeded expectations.,4.0,True,178,673,40,0
+user_9418,prod_526,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,True,46,964,29,0
+user_2990,prod_853,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,True,142,628,36,0
+user_5810,prod_432,"Great product, works exactly as described. Would buy again.",5.0,True,191,1331,2,0
+user_2895,prod_930,Not bad for the price. Some features missing but overall okay.,4.0,True,61,1288,37,0
+user_5540,prod_585,"Great product, works exactly as described. Would buy again.",4.0,True,127,199,42,0
+user_7673,prod_282,Average experience. Nothing special but does the job.,5.0,True,111,1411,38,0
+user_3288,prod_323,Really happy with this purchase. Exceeded expectations.,5.0,True,93,1937,30,0
+bot_8363,prod_296,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,2,15,0,1
+user_2694,prod_834,Not bad for the price. Some features missing but overall okay.,3.0,True,26,1421,31,0
+user_8956,prod_512,Not bad for the price. Some features missing but overall okay.,4.0,True,38,761,4,0
+bot_1365,prod_312,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,3,2,0,1
+user_6396,prod_165,Not bad for the price. Some features missing but overall okay.,4.0,True,190,1065,17,0
+bot_5448,prod_906,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,2,14,0,1
+user_9219,prod_605,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,True,70,1494,7,0
+user_1362,prod_988,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,179,1500,37,0
+user_4246,prod_319,"Great product, works exactly as described. Would buy again.",3.0,True,74,704,13,0
+user_4547,prod_462,Not bad for the price. Some features missing but overall okay.,5.0,True,34,1447,29,0
+user_2830,prod_734,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,106,1808,19,0
+user_2615,prod_503,"Great product, works exactly as described. Would buy again.",5.0,True,40,1753,47,0
+user_5303,prod_628,Average experience. Nothing special but does the job.,3.0,False,111,54,4,0
+user_8142,prod_684,Not bad for the price. Some features missing but overall okay.,3.0,True,113,1094,40,0
+user_8685,prod_394,Average experience. Nothing special but does the job.,4.0,False,111,1418,24,0
+bot_2670,prod_687,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,1,20,0,1
+bot_9904,prod_197,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,3,7,0,1
+bot_4969,prod_899,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,4,27,0,1
+bot_2335,prod_275,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,1,17,0,1
+user_9074,prod_181,Really happy with this purchase. Exceeded expectations.,5.0,True,109,355,31,0
+user_5324,prod_662,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,51,1224,32,0
+user_7201,prod_865,Not bad for the price. Some features missing but overall okay.,4.0,True,89,1821,15,0
+user_6531,prod_484,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,True,83,1280,48,0
+user_5867,prod_981,Average experience. Nothing special but does the job.,4.0,True,179,791,11,0
+user_1077,prod_532,Really happy with this purchase. Exceeded expectations.,3.0,False,52,1315,33,0
+user_5979,prod_992,Average experience. Nothing special but does the job.,4.0,True,80,280,28,0
+user_8030,prod_589,"Great product, works exactly as described. Would buy again.",3.0,True,199,117,43,0
+user_3599,prod_689,"Great product, works exactly as described. Would buy again.",5.0,True,6,40,7,0
+user_2910,prod_637,Not bad for the price. Some features missing but overall okay.,5.0,False,131,1562,8,0
+user_9183,prod_985,Not bad for the price. Some features missing but overall okay.,3.0,True,148,1631,7,0
+bot_8120,prod_270,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,3,9,0,1
+user_1405,prod_379,Average experience. Nothing special but does the job.,5.0,False,168,1825,5,0
+user_3436,prod_189,Average experience. Nothing special but does the job.,4.0,True,196,1506,30,0
+user_1020,prod_596,"Great product, works exactly as described. Would buy again.",5.0,True,59,1759,3,0
+bot_5109,prod_510,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,4,12,0,1
+user_2418,prod_964,Average experience. Nothing special but does the job.,3.0,True,187,1123,21,0
+user_1634,prod_440,"Great product, works exactly as described. Would buy again.",4.0,True,64,357,25,0
+user_4822,prod_288,"Great product, works exactly as described. Would buy again.",3.0,True,136,1533,17,0
+user_7297,prod_331,Really happy with this purchase. Exceeded expectations.,4.0,True,188,341,7,0
+bot_6661,prod_830,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,2,15,0,1
+user_3840,prod_197,Not bad for the price. Some features missing but overall okay.,4.0,False,28,584,12,0
+bot_4556,prod_361,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,2,16,0,1
+user_5996,prod_233,"Great product, works exactly as described. Would buy again.",4.0,False,25,1454,7,0
+user_6603,prod_148,Really happy with this purchase. Exceeded expectations.,5.0,True,159,1659,10,0
+user_8217,prod_620,"Great product, works exactly as described. Would buy again.",5.0,True,130,1244,38,0
+user_2439,prod_713,Average experience. Nothing special but does the job.,4.0,True,75,1924,13,0
+user_7297,prod_905,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,54,498,20,0
+user_1909,prod_450,Really happy with this purchase. Exceeded expectations.,5.0,True,98,511,28,0
+user_3628,prod_274,Not bad for the price. Some features missing but overall okay.,4.0,False,119,1454,24,0
+user_6667,prod_729,Average experience. Nothing special but does the job.,3.0,True,154,1669,21,0
+user_1759,prod_780,"Great product, works exactly as described. Would buy again.",4.0,False,13,383,24,0
+user_4082,prod_206,Really happy with this purchase. Exceeded expectations.,4.0,False,76,1819,24,0
+user_4739,prod_349,"Great product, works exactly as described. Would buy again.",3.0,False,107,1278,35,0
+user_5766,prod_662,Average experience. Nothing special but does the job.,4.0,True,192,1040,40,0
+user_3543,prod_153,Really happy with this purchase. Exceeded expectations.,3.0,False,187,336,36,0
+user_5257,prod_689,Average experience. Nothing special but does the job.,5.0,True,54,1477,0,0
+user_8644,prod_544,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,True,171,1080,30,0
+user_7252,prod_552,"Great product, works exactly as described. Would buy again.",5.0,False,30,1906,30,0
+user_9024,prod_181,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,178,470,44,0
+user_9482,prod_111,"Great product, works exactly as described. Would buy again.",3.0,False,74,1054,21,0
+bot_6225,prod_529,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,2,15,0,1
+user_6109,prod_807,Really happy with this purchase. Exceeded expectations.,5.0,True,176,1761,49,0
+user_8737,prod_518,Really happy with this purchase. Exceeded expectations.,4.0,False,52,840,3,0
+user_6144,prod_587,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,57,1908,16,0
+bot_7037,prod_272,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,3,6,0,1
+bot_4197,prod_238,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,4,2,0,1
+user_9410,prod_489,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,True,187,1920,36,0
+user_6031,prod_145,Average experience. Nothing special but does the job.,5.0,True,16,1595,32,0
+user_3769,prod_715,Not bad for the price. Some features missing but overall okay.,3.0,True,9,1911,36,0
+bot_3519,prod_425,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,1,12,0,1
+user_5908,prod_498,Not bad for the price. Some features missing but overall okay.,4.0,True,22,1122,44,0
+user_4094,prod_350,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,195,395,23,0
+bot_2737,prod_869,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,4,19,0,1
+user_5684,prod_653,"Great product, works exactly as described. Would buy again.",3.0,True,30,1142,0,0
+user_5638,prod_472,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,165,183,43,0
+bot_6587,prod_950,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,4,11,0,1
+user_5405,prod_126,Really happy with this purchase. Exceeded expectations.,4.0,True,89,1115,39,0
+user_9835,prod_821,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,98,1969,38,0
+user_4660,prod_633,Really happy with this purchase. Exceeded expectations.,4.0,False,199,1596,46,0
+user_3499,prod_991,Average experience. Nothing special but does the job.,4.0,True,151,1330,8,0
+user_3182,prod_921,"Great product, works exactly as described. Would buy again.",4.0,False,138,686,11,0
+user_8236,prod_122,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,149,1657,6,0
+user_5993,prod_591,Average experience. Nothing special but does the job.,4.0,True,166,936,40,0
+user_7493,prod_375,Average experience. Nothing special but does the job.,5.0,True,111,378,23,0
+user_7950,prod_138,Average experience. Nothing special but does the job.,3.0,True,188,834,6,0
+user_4749,prod_454,Average experience. Nothing special but does the job.,4.0,True,151,1437,40,0
+user_8690,prod_316,"Great product, works exactly as described. Would buy again.",4.0,True,39,336,17,0
+bot_7476,prod_682,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,3,23,0,1
+user_3713,prod_714,Average experience. Nothing special but does the job.,4.0,True,75,1920,4,0
+bot_6940,prod_662,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,4,6,0,1
+user_7986,prod_229,"Great product, works exactly as described. Would buy again.",4.0,False,16,370,39,0
+user_3813,prod_787,"Great product, works exactly as described. Would buy again.",4.0,False,155,1806,5,0
+user_4725,prod_752,Really happy with this purchase. Exceeded expectations.,4.0,True,64,1330,32,0
+user_6523,prod_152,Average experience. Nothing special but does the job.,4.0,True,150,1092,44,0
+bot_5566,prod_819,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,4,18,0,1
+user_6413,prod_385,Really happy with this purchase. Exceeded expectations.,5.0,True,63,854,23,0
+user_4904,prod_211,Average experience. Nothing special but does the job.,4.0,False,20,813,48,0
+user_2072,prod_975,"Great product, works exactly as described. Would buy again.",3.0,False,59,214,15,0
+user_5583,prod_148,Really happy with this purchase. Exceeded expectations.,3.0,True,5,113,10,0
+bot_7308,prod_372,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,4,11,0,1
+user_5918,prod_238,Really happy with this purchase. Exceeded expectations.,4.0,False,184,1497,18,0
+user_3913,prod_807,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,181,1647,46,0
+bot_7760,prod_421,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,4,14,0,1
+user_5688,prod_357,Not bad for the price. Some features missing but overall okay.,5.0,False,102,78,29,0
+user_9217,prod_700,"Great product, works exactly as described. Would buy again.",3.0,True,174,572,38,0
+user_6730,prod_225,Not bad for the price. Some features missing but overall okay.,5.0,True,161,44,39,0
+user_8585,prod_452,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,167,1518,2,0
+user_3482,prod_537,"Great product, works exactly as described. Would buy again.",4.0,True,91,1877,8,0
+user_4357,prod_864,Not bad for the price. Some features missing but overall okay.,4.0,True,57,1353,8,0
+bot_3162,prod_803,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,3,22,0,1
+bot_2781,prod_966,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,1,3,0,1
+user_7694,prod_397,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,False,99,125,24,0
+user_5184,prod_972,Not bad for the price. Some features missing but overall okay.,4.0,True,108,1331,9,0
+bot_7907,prod_748,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,4,5,0,1
+bot_3929,prod_792,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,1,16,0,1
+user_2875,prod_683,Average experience. Nothing special but does the job.,5.0,False,28,1526,4,0
+user_1467,prod_635,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,True,170,1751,41,0
+user_1926,prod_363,Average experience. Nothing special but does the job.,3.0,True,52,1157,3,0
+user_4732,prod_875,Average experience. Nothing special but does the job.,3.0,True,26,1031,13,0
+user_5579,prod_751,"Great product, works exactly as described. Would buy again.",5.0,True,86,403,32,0
+bot_3021,prod_904,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,3,8,0,1
+user_6478,prod_613,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,84,50,30,0
+bot_2770,prod_812,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,1,25,0,1
+bot_7870,prod_596,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,3,25,0,1
+user_9575,prod_623,Really happy with this purchase. Exceeded expectations.,4.0,False,54,636,31,0
+user_8557,prod_900,"Great product, works exactly as described. Would buy again.",3.0,True,166,967,42,0
+user_8617,prod_655,Not bad for the price. Some features missing but overall okay.,3.0,True,85,151,22,0
+user_8867,prod_101,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,114,523,39,0
+user_6737,prod_599,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,135,1595,38,0
+user_8435,prod_108,Really happy with this purchase. Exceeded expectations.,5.0,True,32,625,27,0
+user_5146,prod_876,Average experience. Nothing special but does the job.,4.0,True,34,1219,2,0
+bot_2549,prod_970,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,2,10,0,1
+user_5048,prod_745,"Great product, works exactly as described. Would buy again.",4.0,False,109,1997,31,0
+user_9213,prod_958,Not bad for the price. Some features missing but overall okay.,5.0,True,169,1874,48,0
+user_5459,prod_894,Not bad for the price. Some features missing but overall okay.,3.0,True,54,296,14,0
+user_7040,prod_756,"Great product, works exactly as described. Would buy again.",4.0,False,180,1639,38,0
+user_6954,prod_468,Really happy with this purchase. Exceeded expectations.,4.0,False,23,1481,37,0
+user_4390,prod_810,Not bad for the price. Some features missing but overall okay.,4.0,True,12,1174,23,0
+user_7275,prod_281,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,True,195,1479,38,0
+bot_7604,prod_633,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,1,7,0,1
+bot_5538,prod_811,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,2,14,0,1
+user_5634,prod_914,Not bad for the price. Some features missing but overall okay.,4.0,False,187,385,8,0
+bot_6977,prod_941,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,4,29,0,1
+user_5828,prod_139,"Great product, works exactly as described. Would buy again.",4.0,True,178,496,11,0
+user_1916,prod_484,"Great product, works exactly as described. Would buy again.",4.0,True,191,1565,25,0
+user_3777,prod_663,Not bad for the price. Some features missing but overall okay.,3.0,True,23,1310,31,0
+user_1872,prod_834,Really happy with this purchase. Exceeded expectations.,5.0,False,125,823,27,0
+bot_2148,prod_412,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,1,3,0,1
+user_6999,prod_467,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,161,1277,18,0
+user_3671,prod_812,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,False,183,1712,24,0
+user_4586,prod_728,Not bad for the price. Some features missing but overall okay.,5.0,False,31,1975,32,0
+bot_7470,prod_316,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,4,22,0,1
+user_2043,prod_566,Average experience. Nothing special but does the job.,4.0,True,9,1550,16,0
+user_5375,prod_656,"Great product, works exactly as described. Would buy again.",4.0,True,86,539,37,0
+user_5688,prod_248,Not bad for the price. Some features missing but overall okay.,3.0,True,93,345,5,0
+user_4671,prod_944,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,False,178,1325,19,0
+user_8242,prod_856,Really happy with this purchase. Exceeded expectations.,4.0,False,61,501,34,0
+user_8176,prod_220,"Great product, works exactly as described. Would buy again.",5.0,True,31,1408,38,0
+user_3247,prod_339,Really happy with this purchase. Exceeded expectations.,3.0,True,89,971,8,0
+user_8868,prod_159,Average experience. Nothing special but does the job.,3.0,False,106,1027,23,0
+user_8991,prod_102,Really happy with this purchase. Exceeded expectations.,5.0,True,105,585,24,0
+user_8630,prod_577,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,9,815,49,0
+user_2506,prod_541,Really happy with this purchase. Exceeded expectations.,3.0,False,57,313,28,0
+bot_8398,prod_645,This changed my life! Best purchase I have ever made! Incredible!!!,5.0,False,3,28,0,1
+user_5154,prod_557,Not bad for the price. Some features missing but overall okay.,4.0,True,183,964,6,0
+user_9661,prod_648,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,39,1873,42,0
+bot_6611,prod_997,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,2,18,0,1
+user_2241,prod_629,Not bad for the price. Some features missing but overall okay.,5.0,True,57,968,44,0
+user_2605,prod_713,Really happy with this purchase. Exceeded expectations.,3.0,False,172,1967,45,0
+user_4419,prod_335,Not bad for the price. Some features missing but overall okay.,3.0,False,189,504,1,0
+user_9736,prod_959,Really happy with this purchase. Exceeded expectations.,4.0,False,82,1595,29,0
+user_5797,prod_140,"Great product, works exactly as described. Would buy again.",4.0,True,194,1984,7,0
+bot_4365,prod_663,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,1,22,0,1
+user_8282,prod_495,Not bad for the price. Some features missing but overall okay.,4.0,True,192,1318,20,0
+bot_7454,prod_154,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,4,24,0,1
+user_8978,prod_878,Not bad for the price. Some features missing but overall okay.,3.0,False,21,1359,17,0
+bot_6663,prod_953,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,4,12,0,1
+user_8674,prod_571,Average experience. Nothing special but does the job.,4.0,False,171,1807,14,0
+user_5033,prod_477,Not bad for the price. Some features missing but overall okay.,4.0,True,121,1146,0,0
+user_4902,prod_229,Really happy with this purchase. Exceeded expectations.,5.0,True,38,482,13,0
+user_9667,prod_385,Really happy with this purchase. Exceeded expectations.,3.0,False,128,603,31,0
+user_5176,prod_123,Not bad for the price. Some features missing but overall okay.,4.0,True,186,1215,18,0
+user_3652,prod_408,"Great product, works exactly as described. Would buy again.",4.0,False,168,403,0,0
+user_6181,prod_940,Average experience. Nothing special but does the job.,4.0,True,18,417,16,0
+user_3105,prod_838,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,False,59,1837,14,0
+user_4689,prod_357,Really happy with this purchase. Exceeded expectations.,3.0,True,164,602,43,0
+bot_8221,prod_238,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,2,6,0,1
+user_1125,prod_175,"Great product, works exactly as described. Would buy again.",4.0,True,168,1691,42,0
+user_8507,prod_956,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",3.0,True,77,1122,47,0
+bot_6380,prod_982,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,1,14,0,1
+user_3666,prod_796,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,31,265,28,0
+user_4329,prod_214,"Great product, works exactly as described. Would buy again.",4.0,True,28,1765,39,0
+user_3722,prod_424,Really happy with this purchase. Exceeded expectations.,5.0,False,76,1477,36,0
+bot_2026,prod_180,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,3,3,0,1
+user_6097,prod_770,Really happy with this purchase. Exceeded expectations.,4.0,True,166,760,35,0
+user_5697,prod_151,Average experience. Nothing special but does the job.,4.0,True,55,282,2,0
+user_4984,prod_668,Really happy with this purchase. Exceeded expectations.,5.0,True,162,511,20,0
+user_4349,prod_737,Not bad for the price. Some features missing but overall okay.,3.0,True,122,1346,5,0
+user_7931,prod_264,"Great product, works exactly as described. Would buy again.",4.0,False,120,933,27,0
+user_7948,prod_481,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,139,313,35,0
+user_7787,prod_192,Not bad for the price. Some features missing but overall okay.,5.0,False,107,312,49,0
+user_9513,prod_181,Not bad for the price. Some features missing but overall okay.,4.0,False,120,128,4,0
+user_7822,prod_779,Average experience. Nothing special but does the job.,4.0,True,107,1658,48,0
+user_8717,prod_849,Average experience. Nothing special but does the job.,4.0,False,80,1381,31,0
+bot_6068,prod_199,WOW WOW WOW!! Super super super great product!!!! Love it!!!!!,5.0,False,1,28,0,1
+user_3524,prod_160,"Great product, works exactly as described. Would buy again.",4.0,True,49,31,4,0
+user_5204,prod_856,Not bad for the price. Some features missing but overall okay.,4.0,True,49,665,29,0
+bot_7363,prod_594,Absolutely perfect in every way! Cannot find a single flaw! Perfect!!!,5.0,False,4,21,0,1
+user_1464,prod_837,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,False,161,1927,11,0
+bot_3030,prod_829,Perfect perfect perfect! Best seller! Must buy! Amazing quality!,5.0,False,4,8,0,1
+user_9843,prod_292,"Great product, works exactly as described. Would buy again.",4.0,True,198,1711,1,0
+user_7386,prod_630,Really happy with this purchase. Exceeded expectations.,4.0,True,27,571,27,0
+user_4367,prod_932,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",4.0,True,132,1926,43,0
+user_6709,prod_343,"Solid quality, arrived on time. Minor scratches on packaging but product is fine.",5.0,True,108,649,15,0
+user_2666,prod_320,"Great product, works exactly as described. Would buy again.",5.0,False,31,1707,28,0
+user_6753,prod_708,Really happy with this purchase. Exceeded expectations.,5.0,True,75,32,0,0
+bot_7435,prod_942,BEST PRODUCT EVER!!! AMAZING!!! BUY NOW!!! FIVE STARS!!!,5.0,False,4,6,0,1
+user_9280,prod_818,Average experience. Nothing special but does the job.,4.0,True,50,1211,6,0

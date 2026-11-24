@@ -12,13 +12,14 @@ from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
 from slowapi.util import get_remote_address
 
-from backend.detection.feature_extractor import build_feature_vector, get_named_features
+from backend.detection.feature_extractor import get_named_features
 from backend.detection.model import load_model, predict, explain
 from backend.utils.database import get_db, init_db, Review
 
 limiter = Limiter(
     key_func=get_remote_address,
     default_limits=["120/minute"],
+    storage_uri=os.getenv("RATELIMIT_STORAGE_URI", "memory://"),
 )
 app = FastAPI(title="Fake Review Detector API", version="1.0.0")
 app.state.limiter = limiter
@@ -122,10 +123,12 @@ def detect_fake_review(
     result = predict(model, np.array(list(named.values())))
     top_features = explain(model, named)
 
+    # Persist only the classification summary; submitted text and IDs are not
+    # needed for the public history, aggregate stats, or recommendations.
     review = Review(
-        reviewer_id=req.reviewer_id,
-        product_id=req.product_id,
-        review_text=req.review_text,
+        reviewer_id=None,
+        product_id=None,
+        review_text=None,
         rating=req.rating,
         is_fake=result["is_fake"],
         fake_probability=result["fake_probability"],

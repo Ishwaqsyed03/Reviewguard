@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useState } from "react";
 
@@ -10,12 +10,11 @@ const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 interface Review {
   id: number;
-  reviewer_id: string;
-  product_id: string;
   rating: number;
-  fake_probability: number | null;
-  is_fake: boolean | null;
+  fake_probability: number;
+  is_fake: boolean;
   verified_purchase: boolean;
+  created_at: string;
 }
 
 export default function HistorySection({ className }: { className?: string }) {
@@ -23,12 +22,25 @@ export default function HistorySection({ className }: { className?: string }) {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
-  function load() {
+  async function load() {
     setLoading(true);
-    fetch(`${API}/api/reviews?limit=20`)
-      .then(r => r.json())
-      .then(d => { setReviews(d); setLoading(false); })
-      .catch(e => { setError(String(e)); setLoading(false); });
+    setError(null);
+    try {
+      const response = await fetch(`${API}/api/reviews?limit=20`);
+      if (!response.ok) {
+        throw new Error(`History request failed (${response.status})`);
+      }
+      const data: unknown = await response.json();
+      if (!Array.isArray(data)) {
+        throw new Error("History response was not a list");
+      }
+      setReviews(data as Review[]);
+    } catch (err) {
+      setError(String(err));
+      setReviews([]);
+    } finally {
+      setLoading(false);
+    }
   }
 
   useEffect(() => { load(); }, []);
@@ -39,6 +51,9 @@ export default function HistorySection({ className }: { className?: string }) {
         <div className="flex flex-col items-center gap-4 text-center">
           <span className="text-brand text-xs font-bold tracking-widest uppercase">Audit Log</span>
           <h2 className="text-3xl leading-tight font-semibold sm:text-5xl">Recently Analyzed Reviews</h2>
+          <p className="text-muted-foreground max-w-[600px] text-sm">
+            Review text and submitted IDs are not stored with new analyses or returned here.
+          </p>
         </div>
 
         <div className="flex justify-center">
@@ -60,29 +75,26 @@ export default function HistorySection({ className }: { className?: string }) {
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-border border-b">
-                    {["ID", "Reviewer", "Product", "Rating", "Fake Prob", "Verdict", "Verified"].map(h => (
+                    {["Analysis", "Date", "Rating", "Fake Prob", "Verdict", "Verified"].map(h => (
                       <th key={h} className="text-muted-foreground px-4 py-3 text-left text-[10px] font-bold tracking-widest uppercase">{h}</th>
                     ))}
                   </tr>
                 </thead>
                 <tbody>
-                  {reviews.map((r) => (
-                    <tr key={r.id} className="border-border border-b last:border-0 hover:bg-white/[0.02]">
-                      <td className="text-muted-foreground px-4 py-3">{r.id}</td>
-                      <td className="px-4 py-3 font-mono text-xs">{r.reviewer_id}</td>
-                      <td className="px-4 py-3 font-mono text-xs">{r.product_id}</td>
-                      <td className="px-4 py-3">{r.rating}★</td>
-                      <td className="px-4 py-3">{r.fake_probability != null ? `${(r.fake_probability * 100).toFixed(1)}%` : "N/A"}</td>
+                  {reviews.map((review) => (
+                    <tr key={review.id} className="border-border border-b last:border-0 hover:bg-white/[0.02]">
+                      <td className="text-muted-foreground px-4 py-3">#{review.id}</td>
+                      <td className="text-muted-foreground px-4 py-3">{new Date(review.created_at).toLocaleString()}</td>
+                      <td className="px-4 py-3">{review.rating}★</td>
+                      <td className="px-4 py-3">{(review.fake_probability * 100).toFixed(1)}%</td>
                       <td className="px-4 py-3">
-                        {r.is_fake == null ? (
-                          <span className="text-muted-foreground">—</span>
-                        ) : r.is_fake ? (
+                        {review.is_fake ? (
                           <span className="rounded-full bg-red-500/15 px-2 py-0.5 text-[11px] font-bold text-red-400">FAKE</span>
                         ) : (
                           <span className="rounded-full bg-green-500/15 px-2 py-0.5 text-[11px] font-bold text-green-400">GENUINE</span>
                         )}
                       </td>
-                      <td className="px-4 py-3">{r.verified_purchase ? "✅" : "—"}</td>
+                      <td className="px-4 py-3">{review.verified_purchase ? "✅" : "—"}</td>
                     </tr>
                   ))}
                 </tbody>

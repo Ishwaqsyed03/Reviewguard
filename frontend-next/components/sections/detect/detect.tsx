@@ -23,25 +23,11 @@ const PRESETS = {
   },
 };
 
-const CONTEXT_MAP: Record<string, (v: number) => string> = {
-  uppercase_ratio:        (v) => `${(v*100).toFixed(0)}% UPPERCASE text (normal <5%)`,
-  exclamation_count:      (v) => `${v.toFixed(0)} exclamation marks (normal: 0-1)`,
-  sentiment_subjectivity: (v) => `Subjectivity score ${v.toFixed(2)}/1.0`,
-  sentiment_polarity:     (v) => `Extreme positive sentiment: ${v.toFixed(2)}/1.0`,
-  unique_word_ratio:      (v) => `Only ${(v*100).toFixed(0)}% unique words - repetitive text`,
-  review_count:           (v) => `Account has only ${v.toFixed(0)} total reviews`,
-  days_since_joined:      (v) => `Account only ${v.toFixed(0)} days old`,
-  helpful_votes:          (v) => `Received ${v.toFixed(0)} helpful votes`,
-  verified_purchase:      (v) => v === 0 ? "Not a verified purchase" : "Verified purchase",
-  avg_rating_given:       (v) => `Always gives ${v.toFixed(1)}-star ratings`,
-  review_length:          (v) => `Review is only ${v.toFixed(0)} characters`,
-  word_count:             (v) => `Only ${v.toFixed(0)} words in review`,
-};
-
 interface ExplanationItem {
   feature: string;
   label: string;
   value: number;
+  reference_value: number;
   score: number;
 }
 
@@ -108,10 +94,11 @@ export default function DetectSection({ className }: { className?: string }) {
   }
 
   const prob = result?.fake_probability ?? 0;
-  const verdictColor = prob >= 0.7 ? "text-red-400" : prob >= 0.4 ? "text-yellow-400" : "text-green-400";
-  const verdictBg = prob >= 0.7 ? "bg-red-500/10 border-red-500/30" : prob >= 0.4 ? "bg-yellow-500/10 border-yellow-500/30" : "bg-green-500/10 border-green-500/30";
-  const verdictLabel = prob >= 0.7 ? "FAKE REVIEW" : prob >= 0.4 ? "SUSPICIOUS" : "LIKELY GENUINE";
-  const verdictIcon = prob >= 0.7 ? "🚫" : prob >= 0.4 ? "⚠️" : "✅";
+  const isFake = result?.is_fake ?? false;
+  const verdictColor = isFake ? "text-red-400" : "text-green-400";
+  const verdictBg = isFake ? "bg-red-500/10 border-red-500/30" : "bg-green-500/10 border-green-500/30";
+  const verdictLabel = isFake ? "FAKE REVIEW" : "LIKELY GENUINE";
+  const verdictIcon = isFake ? "🚫" : "✅";
 
   const fakeSigs = result?.explanation.filter(f => f.score > 0.001).slice(0, 4) ?? [];
   const genuineSigs = result?.explanation.filter(f => f.score < -0.001).slice(0, 2) ?? [];
@@ -123,7 +110,7 @@ export default function DetectSection({ className }: { className?: string }) {
           <span className="text-brand text-xs font-bold tracking-widest uppercase">Detection Engine</span>
           <h2 className="text-3xl leading-tight font-semibold sm:text-5xl">Analyze a Review</h2>
           <p className="text-muted-foreground max-w-[600px] font-medium">
-            Paste any review and reviewer info to get an AI verdict with full explanation.
+            See the model estimate and the strongest input signals behind its classifier decision.
           </p>
         </div>
 
@@ -222,32 +209,33 @@ export default function DetectSection({ className }: { className?: string }) {
               <div className={cn("text-sm font-bold tracking-widest uppercase", verdictColor)}>{verdictLabel}</div>
               <div className="bg-muted h-2 w-full overflow-hidden rounded-full">
                 <div
-                  className={cn("h-full rounded-full transition-all duration-700", prob >= 0.7 ? "bg-red-500" : prob >= 0.4 ? "bg-yellow-400" : "bg-green-500")}
+                  className={cn("h-full rounded-full transition-all duration-700", isFake ? "bg-red-500" : "bg-green-500")}
                   style={{ width: `${prob * 100}%` }}
                 />
               </div>
-              <p className="text-muted-foreground text-xs">Above 70% = fake · 40-70% = suspicious · Below 40% = genuine</p>
+              <p className="text-muted-foreground text-xs">The label follows the model's classifier decision; probability is shown for context.</p>
             </div>
             <div className="bg-card border-border flex flex-col gap-4 rounded-2xl border p-6">
-              <h3 className="text-sm font-bold">What triggered this verdict?</h3>
+              <h3 className="text-sm font-bold">Feature signals</h3>
+              <p className="text-muted-foreground text-xs">Each item compares the observed feature with its training-set average while holding the other inputs fixed. These are local sensitivity signals, not proof of cause, and do not add up to the displayed probability.</p>
               {fakeSigs.length > 0 && (
                 <div className="flex flex-col gap-2">
-                  <span className="text-muted-foreground text-[10px] font-bold tracking-widest uppercase">Red flags</span>
-                  {fakeSigs.map((f) => {
-                    const fn = CONTEXT_MAP[f.feature];
-                    const ctx = fn ? fn(f.value) : `${f.label}: ${f.value.toFixed(2)}`;
-                    return <div key={f.feature} className="rounded-lg border border-red-500/30 bg-red-500/10 px-3 py-2 text-xs text-red-400">🚩 {ctx}</div>;
-                  })}
+                  <span className="text-muted-foreground text-[10px] font-bold tracking-widest uppercase">Raised the fake probability</span>
+                  {fakeSigs.map((f) => (
+                    <div key={f.feature} className="rounded-lg border border-red-500/30 bg-red-500/10 px-3 py-2 text-xs text-red-400">
+                      {f.label}: {f.value.toFixed(2)} vs typical {f.reference_value.toFixed(2)} (+{(f.score * 100).toFixed(1)} percentage points)
+                    </div>
+                  ))}
                 </div>
               )}
               {genuineSigs.length > 0 && (
                 <div className="flex flex-col gap-2">
-                  <span className="text-muted-foreground text-[10px] font-bold tracking-widest uppercase">Genuine signals</span>
-                  {genuineSigs.map((f) => {
-                    const fn = CONTEXT_MAP[f.feature];
-                    const ctx = fn ? fn(f.value) : `${f.label}: ${f.value.toFixed(2)}`;
-                    return <div key={f.feature} className="rounded-lg border border-green-500/30 bg-green-500/10 px-3 py-2 text-xs text-green-400">✅ {ctx}</div>;
-                  })}
+                  <span className="text-muted-foreground text-[10px] font-bold tracking-widest uppercase">Lowered the fake probability</span>
+                  {genuineSigs.map((f) => (
+                    <div key={f.feature} className="rounded-lg border border-green-500/30 bg-green-500/10 px-3 py-2 text-xs text-green-400">
+                      {f.label}: {f.value.toFixed(2)} vs typical {f.reference_value.toFixed(2)} ({(f.score * 100).toFixed(1)} percentage points)
+                    </div>
+                  ))}
                 </div>
               )}
               {fakeSigs.length === 0 && genuineSigs.length === 0 && (

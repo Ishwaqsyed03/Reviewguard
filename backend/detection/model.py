@@ -1,10 +1,9 @@
 import joblib
 import numpy as np
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.metrics import classification_report, roc_auc_score
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import classification_report, roc_auc_score
 from pathlib import Path
 
 MODEL_PATH = Path(__file__).parent.parent.parent / "models" / "trained" / "detector.pkl"
@@ -31,52 +30,63 @@ def load_model() -> Pipeline:
     return joblib.load(MODEL_PATH)
 
 
+def _class_index(model: Pipeline, label: int) -> int:
+    classes = list(model.classes_)
+    if label not in classes:
+        raise ValueError(f"Model is missing the expected class {label}.")
+    return classes.index(label)
+
+
 def predict(model: Pipeline, features: np.ndarray) -> dict:
-    prob = model.predict_proba(features.reshape(1, -1))[0]
-    label = model.predict(features.reshape(1, -1))[0]
+    row = features.reshape(1, -1)
+    probabilities = model.predict_proba(row)[0]
+    fake_index = _class_index(model, 1)
+    genuine_index = _class_index(model, 0)
+    label = model.predict(row)[0]
     return {
-        "is_fake": bool(label),
-        "fake_probability": round(float(prob[1]), 4),
-        "genuine_probability": round(float(prob[0]), 4),
+        "is_fake": bool(label == 1),
+        "fake_probability": round(float(probabilities[fake_index]), 4),
+        "genuine_probability": round(float(probabilities[genuine_index]), 4),
     }
 
 
 def explain(model: Pipeline, named_features: dict) -> list:
+    """Return per-feature local sensitivity vs the training-set mean.
+
+    Each score is the change in fake probability when one observed feature is
+    compared with that feature's training mean while all other inputs stay fixed.
+    These scores are local comparisons, not causal or additive explanations.
+    """
     from backend.detection.feature_extractor import FEATURE_NAMES, FEATURE_META
 
-    importances = model.named_steps["clf"].feature_importances_
-    scaler      = model.named_steps["scaler"]
+    scaler = model.named_steps["scaler"]
+    values = np.array([named_features[name] for name in FEATURE_NAMES], dtype=float)
+    reference_values = scaler.mean_
+    fake_index = _class_index(model, 1)
 
-    values = np.array([named_features[k] for k in FEATURE_NAMES])
-    scaled = scaler.transform(values.reshape(1, -1))[0]
+    full_probability = float(model.predict_proba(values.reshape(1, -1))[0, fake_index])
+    counterfactuals = np.repeat(values.reshape(1, -1), len(FEATURE_NAMES), axis=0)
+    indices = np.arange(len(FEATURE_NAMES))
+    counterfactuals[indices, indices] = reference_values
+    reference_probabilities = model.predict_proba(counterfactuals)[:, fake_index]
 
-    contributions = []
-    for i, fname in enumerate(FEATURE_NAMES):
-        meta      = FEATURE_META[fname]
-        raw_val   = float(values[i])
-        scaled_v  = float(scaled[i])
-        imp       = float(importances[i])
-
-        # Direction: positive contribution = toward fake
-        direction = 1 if meta["fake_when"] == "high" else -1
-        score     = round(imp * scaled_v * direction, 4)
-
-        contributions.append({
-            "feature":     fname,
-            "label":       meta["label"],
-            "value":       raw_val,
-            "importance":  round(imp, 4),
-            "score":       score,           # positive = suspicious, negative = genuine signal
-            "fake_when":   meta["fake_when"],
+    signals = []
+    for i, name in enumerate(FEATURE_NAMES):
+        signals.append({
+            "feature": name,
+            "label": FEATURE_META[name]["label"],
+            "value": float(values[i]),
+            "reference_value": float(reference_values[i]),
+            "score": round(full_probability - float(reference_probabilities[i]), 4),
         })
 
-    contributions.sort(key=lambda x: abs(x["score"]), reverse=True)
-    return contributions[:10]
+    signals.sort(key=lambda item: abs(item["score"]), reverse=True)
+    return signals[:10]
 
 
 def evaluate(model: Pipeline, X_test: np.ndarray, y_test: np.ndarray) -> dict:
     y_pred = model.predict(X_test)
-    y_prob = model.predict_proba(X_test)[:, 1]
+    y_prob = model.predict_proba(X_test)[:, _class_index(model, 1)]
     report = classification_report(y_test, y_pred, output_dict=True)
     report["roc_auc"] = roc_auc_score(y_test, y_prob)
     return report

@@ -52,7 +52,7 @@ export default function HistorySection({ className }: { className?: string }) {
           <span className="text-brand text-xs font-bold tracking-widest uppercase">Audit Log</span>
           <h2 className="text-3xl leading-tight font-semibold sm:text-5xl">Recently Analyzed Reviews</h2>
           <p className="text-muted-foreground max-w-[600px] text-sm">
-            The public history shows summary results only. Review text and submitted IDs are not returned.
+            Review text and submitted IDs are not stored with new analyses or returned here.
           </p>
         </div>
 

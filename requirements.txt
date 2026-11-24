@@ -10,3 +10,4 @@ pydantic==2.8.2
 requests==2.32.3
 plotly==5.24.0
 joblib==1.4.2
+slowapi==0.1.9
